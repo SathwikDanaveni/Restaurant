@@ -1,0 +1,84 @@
+.nav{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+li{
+    display: inline;
+}
+.m{
+    display: inline;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: black;
+}
+.m:hover{
+    text-decoration-line: underline;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.r:link, .r:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid black; 
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+.r:hover, .r:active {
+    background-color: black;
+    color: white; 
+}
+.name{
+    font-size: 100px;
+}
+.menu{
+    height: 700px;
+    width: 500px;
+    text-align: center;
+}
+
+input[type=text],input[type=password]{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 0 22px 0;
+    display:inline-table;
+    border: none;
+    background-color: #f1f1f1;
+}
+hr{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+button:hover{
+    opacity: 1;
+}
+.signupbtn{
+    width: 30%;
+}
+.SignUp{
+    padding: 16px;
+    max-width: 400px;
+    margin: auto;
+    
+}
+.submit::after{
+    content: "";
+    clear: both;
+    display: table;
+}
